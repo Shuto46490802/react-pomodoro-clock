@@ -23,7 +23,7 @@ const App = () => {
 
   const [timerLeft, setTimerLeft] = useState(1500);
   const [sessionLength, setSessionLength] = useState(25);
-  const [breakLength, setBreakLength] = useState(1);
+  const [breakLength, setBreakLength] = useState(5);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isSession, setIsSession] = useState(true);
   const intervalId = useRef();
