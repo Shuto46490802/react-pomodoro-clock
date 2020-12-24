@@ -27,7 +27,7 @@ const App = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isSession, setIsSession] = useState(true);
   const intervalId = useRef();
-  const beep = useRef()
+  const beep = useRef();
   // Displaying Timer
   const displayTimer = () => {
     let minute = Math.floor(timerLeft / 60);
