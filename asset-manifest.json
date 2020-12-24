@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-pomodoro-clock/static/css/main.be671d07.chunk.css",
-    "main.js": "/react-pomodoro-clock/static/js/main.a481f427.chunk.js",
-    "main.js.map": "/react-pomodoro-clock/static/js/main.a481f427.chunk.js.map",
+    "main.js": "/react-pomodoro-clock/static/js/main.6357e1e9.chunk.js",
+    "main.js.map": "/react-pomodoro-clock/static/js/main.6357e1e9.chunk.js.map",
     "runtime-main.js": "/react-pomodoro-clock/static/js/runtime-main.00dfc1da.js",
     "runtime-main.js.map": "/react-pomodoro-clock/static/js/runtime-main.00dfc1da.js.map",
     "static/js/2.fcee9dee.chunk.js": "/react-pomodoro-clock/static/js/2.fcee9dee.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.00dfc1da.js",
     "static/js/2.fcee9dee.chunk.js",
     "static/css/main.be671d07.chunk.css",
-    "static/js/main.a481f427.chunk.js"
+    "static/js/main.6357e1e9.chunk.js"
   ]
 }
