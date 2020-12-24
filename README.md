@@ -1,3 +1,13 @@
+# Built With 
+
+* [React.js](https://github.com/facebook/create-react-app)
+* [Font Awesome](https://fontawesome.com/)
+
+
+# Demo
+
+View project at: [https://shuto46490802.github.io/react-pomodoro-clock/](https://shuto46490802.github.io/react-pomodoro-clock/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

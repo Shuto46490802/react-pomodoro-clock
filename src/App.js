@@ -1,15 +1,19 @@
 import React, { useEffect, useState, useRef } from "react";
+//components
 import Button from "./Components/Button";
 import Timer from "./Components/Timer";
 import BreakLength from "./Components/BreakLength";
 import SessionLength from "./Components/SessionLength";
+//icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import { faStop } from '@fortawesome/free-solid-svg-icons';
 import { faSyncAlt } from '@fortawesome/free-solid-svg-icons';
+//css
 import "./App.css";
+//alarm
 import alarm from "./alarm.mp3"
 
 const arrowUp = <FontAwesomeIcon icon={faArrowUp}/>;
