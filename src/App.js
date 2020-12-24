@@ -9,7 +9,8 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import { faStop } from '@fortawesome/free-solid-svg-icons';
 import { faSyncAlt } from '@fortawesome/free-solid-svg-icons';
-import "./App.css"
+import "./App.css";
+import alarm from "./alarm.mp3"
 
 const arrowUp = <FontAwesomeIcon icon={faArrowUp}/>;
 const arrowDown = <FontAwesomeIcon icon={faArrowDown}/>;
@@ -22,11 +23,11 @@ const App = () => {
 
   const [timerLeft, setTimerLeft] = useState(1500);
   const [sessionLength, setSessionLength] = useState(25);
-  const [breakLength, setBreakLength] = useState(5);
+  const [breakLength, setBreakLength] = useState(1);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isSession, setIsSession] = useState(true);
   const intervalId = useRef();
-
+  const beep = useRef()
   // Displaying Timer
   const displayTimer = () => {
     let minute = Math.floor(timerLeft / 60);
@@ -133,7 +134,10 @@ const App = () => {
         setTimerLeft(sessionLength * 60);
         setIsSession(true);
       }
-    }
+    };
+    if(timerLeft === 0){
+      beep.current.play();
+    };
   });
 
   return(
@@ -179,6 +183,7 @@ const App = () => {
           <p>Designed and Coded by</p>
           <p id="name"><a href="https://github.com/Shuto46490802" target="_blank">Shuto S</a></p>
         </div>
+        <audio id="beep" src={alarm} ref={beep} />
       </div>
   )
 }
