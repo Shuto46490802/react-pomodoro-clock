@@ -1,0 +1,12 @@
+#inputs-wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:2em;
+}
+h3{
+    font-size:1.7em;
+    margin:0 .3em;
+}
+#length{
+    margin:1em 1em;
+}

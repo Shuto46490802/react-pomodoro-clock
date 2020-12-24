@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#page-wrapper{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-top:3em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#pomodoro-clock{
+  width:100%;
+  color:#3C403D;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border:10px solid white;
+  position:relative;
+  box-shadow:1px 1px 10px 1px #3C403D;
+  padding:0 0 2em 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#length-wrapper{
+  display:flex;
 }
-
-.App-link {
-  color: #61dafb;
+.length-setter{
+  display:flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#function-button{
+  display:flex;
+  font-size:1.7em;
+}
+.icon{
+  cursor:pointer;
+  transition-duration:.3s;
+}
+.icon:hover{
+  color:white;
+  transition-duration:.3s;
+  transform:scale(1.1);
+}
+#footer{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  line-height:.1em;
+  margin-top:4em;
+  font-size:.9em;
+  color: #3C403D;
+  
+}
+#name ,#name a{
+  font-family:"Arizonia";
+  font-size:1.3em;
+  text-decoration:none;
+  color: #3C403D;
 }
