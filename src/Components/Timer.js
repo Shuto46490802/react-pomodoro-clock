@@ -16,7 +16,7 @@ const Timer = (props) => {
 
     return(
         <div id="timer">
-            <div id="timer-input"  className={className} style={style}> 
+            <div id="timer-input"  style={style}> 
             {
                 props.isSession
                 ? "Session"
